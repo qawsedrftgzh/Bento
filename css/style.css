@@ -27,7 +27,6 @@
   --imgcol: linear-gradient(
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.7)
-  --imgbg: url(/img/wal.jpg);
   ); /* Filter color */
 }
 
@@ -38,12 +37,12 @@
   --sbg: #201e21; /* Cards color */
   --fg: #d8dee9; /* Foreground color */
   --sfg: #3a3a3a; /* Secondary Foreground color */
+  --imgbg: url(/img/wal.jpg);
   --imgcol: linear-gradient(
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)
   ); /* Filter color */
-  --imgbg: url(/img/wal.jpg);
-}
+} 
 
 /* S T Y L E S */
 
@@ -101,7 +100,7 @@ body {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.35);
 }
 
-.timeBlock {
+/*.timeBlock {
   grid-row: 1 / span 2;
   grid-column: 1 / span 2;
   display: flex;
@@ -117,7 +116,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} */
 .weatherBlock__date {
   display: flex;
   align-items: center;
